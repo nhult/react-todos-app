@@ -8,12 +8,7 @@ export default class App extends Component {
     super(props);
     this.state = {
       input: '',
-      todos: [
-      {value: "1", id: 1, checked: true},
-      {value: "2 ", id: 2, checked: true},
-      {value: "3this stays", id: 3, checked: false},
-      {value: "4", id: 4, checked: true}
-      ]
+      todos: []
     }
   }
   
